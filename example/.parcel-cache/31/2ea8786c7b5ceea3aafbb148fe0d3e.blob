@@ -1,0 +1,6 @@
+"use strict";
+if ("development" === 'production') {
+  module.exports = require('./wax.cjs.production.min.js');
+} else {
+  module.exports = require('./wax.cjs.development.js');
+}
