@@ -1,6 +1,20 @@
 {
+  "name": "@ferranblanche/wax",
+  "description": "Design System for Miyagi",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ferranblanche/wax.git"
+  },
+  "keywords": [
+    "Design System"
+  ],
+  "author": "Ferran Blanche <ferran.blanche@gmail.com> (https://github.com/ferranblanche)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferranblanche/wax/issues"
+  },
+  "homepage": "https://github.com/ferranblanche/wax",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -36,8 +50,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "wax",
-  "author": "Ferran Blanché",
   "module": "dist/wax.esm.js",
   "size-limit": [
     {
